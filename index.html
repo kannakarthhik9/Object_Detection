@@ -17,6 +17,11 @@
             import main
             
             main.Detection_algorithm("dinning.jpg")
+            
+            def show_text(e):
+                document['output'].textContent = e.target.value;
+
+            document['text'].bind('input', show_text)
             </script>
 </body>
 </html> 
